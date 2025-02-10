@@ -1,42 +1,24 @@
-# Node.js dependencies
-node_modules/
-npm-debug.log
-yarn-error.log
-package-lock.json
-yarn.lock
+# Authentication & Authorization Foundation 🚀
 
-# Environment variables
-.env
+This project provides a **Node.js-based authentication and authorization system** using **Express, bcrypt, and NeDB** as a lightweight database. It serves as a foundation for implementing secure user authentication.
 
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-debug.log*
-log.txt
+## ✨ Features
+- ✅ **User Registration** with password hashing using `bcrypt.js`
+- ✅ **User Login** with password verification
+- ✅ **Token-based Authentication** (JWT integration can be added)
+- ✅ **Middleware for Authorization**
+- ✅ **Lightweight Database** using `nedb-promises`
 
-# Database files
-*.db
-*.sqlite
-*.sqlite3
-*.nedb
+## 📦 Tech Stack
+- **Backend:** Node.js, Express.js  
+- **Database:** NeDB (lightweight NoSQL)  
+- **Security:** bcrypt.js for password hashing  
 
-# OS-specific files
-.DS_Store
-Thumbs.db
+## 🚀 Getting Started
 
-# Editor/IDE settings
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Build files
-dist/
-build/
-
-# Coverage reports
-coverage/
-*.lcov
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/sharma3330/foundation-auth.git
+cd foundation-auth
+npm install
+npm run start

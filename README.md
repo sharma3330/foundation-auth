@@ -18,5 +18,7 @@ This project provides a **Node.js-based authentication and authorization system*
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/auth-foundation.git
-cd auth-foundation
+git clone https://github.com/sharma3330/foundation-auth.git
+cd foundation-auth
+npm install
+npm run start
